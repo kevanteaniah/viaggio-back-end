@@ -74,7 +74,7 @@ const update = async (req, res) => {
     return res.status(500).json(err)
   }
 }
-
+git check
 const deletePost = async (req, res) => {
   try {
     await Post.findByIdAndDelete(req.params.id)
